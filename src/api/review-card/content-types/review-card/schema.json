@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "review_cards",
+  "info": {
+    "singularName": "review-card",
+    "pluralName": "review-cards",
+    "displayName": "review-card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "rate": {
+      "type": "integer"
+    },
+    "userIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "additionalInfo": {
+      "type": "string"
+    }
+  }
+}

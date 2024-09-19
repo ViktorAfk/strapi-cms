@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_rules",
+  "info": {
+    "singularName": "order-rule",
+    "pluralName": "order-rules",
+    "displayName": "order-rule"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "orderTitle": {
+      "type": "string"
+    },
+    "information": {
+      "type": "string"
+    },
+    "orderIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

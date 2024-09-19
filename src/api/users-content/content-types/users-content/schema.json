@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "users_contents",
+  "info": {
+    "singularName": "users-content",
+    "pluralName": "users-contents",
+    "displayName": "users-content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "usersPictures": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
